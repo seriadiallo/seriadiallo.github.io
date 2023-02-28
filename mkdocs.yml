@@ -1,1 +1,5 @@
 site_name: Sadialiou Diallo
+site_url: https://seriadiallo.github.io
+theme:
+    name: bootstrap4
+

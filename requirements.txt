@@ -1,0 +1,3 @@
+mkdocs==1.4.2
+mkdocs-bootstrap4==0.1.5
+
