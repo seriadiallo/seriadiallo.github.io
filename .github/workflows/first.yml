@@ -32,7 +32,7 @@ jobs:
       - name: Login to docker
         run: docker login -u ${{ secrets.DOCKER_HUB_USER }} -p ${{ secrets.DOCKER_HUB_PASS }}
       - name: Build docker image
-        run: docker build -t seriadiallo/githubaction-intro:0.1 .
+        run: docker build -t seriadiallo/githubaction-intro:${GITHUB_REF_NAME}  .
       - name: Push docker image
-        run: docker push seriadiallo/githubaction-intro:0.1
+        run: docker push seriadiallo/githubaction-intro:${GITHUB_REF_NAME} 
 

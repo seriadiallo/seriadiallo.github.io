@@ -4,4 +4,4 @@
   https://seriadiallo.github.io 
 
 - image docker
-  https://hub.docker.com/repository/docker/seriadiallo/githubaction-intro
+  https://hub.docker.com/r/seriadiallo/githubaction-intro
