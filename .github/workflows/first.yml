@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: 3.x
       - name: "Install mkdocs"
-        run: pip install mkdocs
+        run: pip install -r requirements.txt
       - name: "Deploy project"
         run: mkdocs gh-deploy --force
       - name: "finish"
